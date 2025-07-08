@@ -1,0 +1,16 @@
+
+## mitmproxy-censor
+
+Censors words like “iPhone” in websites using mitmproxy.
+
+### Usage
+
+```bash
+mitmproxy -s censor.py
+```
+
+* Blocks/censors selected words in text, links, and hrefs.
+* Replaces SVG icons with white boxes.
+* Adds red banner to confirm injection.
+
+➡ Add words to `INAPPROPRIATE_WORDS` in `censor.py`.
