@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "savvy-pad-286113",
+  "private_key_id": "3164d849ff92d47550aa2a8fba3d30649bf97027",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOE9dnS6hn6NBd\nlz2Wm9PYRcRwSLajGlY3UiA2+a2g5+z/ieiKvhNt7PR+MycwIcy9GHEGkfSUcY6+\noiDtG8zb538lmFrvLs+yqJL7E0WgmDFIr5NsAR94lwfUx6Xw//CrF9YfInu2EsQ7\n55Cbg+xJIaHpUOKbeMiKmZn6NO4oeAJX66KWpH/azQcKK1QUyUF1OWBxcjTcR8/I\ntDuCulHVA3UXfnzTnbE7ooJq2yKkNyJLGgmPXFyyS6d1FujVMZ8mHaydJbicT+Re\n2gV8l9+3nXMi1jMxfDsOUNTOlRpNYGsh4kacqEqdB8oMXIapBn2AHjoJPw8NgLnR\nt/5tSw+rAgMBAAECggEAAWjT/OA9QPG8nysvusRbfZt5AvV+uFQDo5HZOrjdxB4f\nFwiLgRously+8k1vKosHdWk2vutMnDZ0yTz4+HNP4eVscgJASKS2c9flY49Q47rY\nltul4UCf/hHcWJbMAOQgCWxTziYFl0e4boiGOQWek5lodCylofgy6Su07UuE/Y0r\nAvvMBpgiOfMPXcULSID6cMSDksStKF2rTGn49Mn+YXzGrhR/jav1BTHuow5Fta76\nrP3FrCOmYhCVIor8QtLTGVrzMrv71ZO0CP2EJyoI3tL9OBM7jd6wyWWyJNYL58AC\nQDiWvqg07jvhFaTC4aQCd1mwHfsqcoCMRzfTwCy3IQKBgQDmIEiv85U5DBrLi+fZ\nsZin22tzM7P0h5PqUAFtJJjUucMXxuFqqPdp/0XwjWl3POscjLwA4qKkpTaC67W8\n+3fVrNxHYgiEdX9eKjl8qooy6WREVUfrQeICM+B+2KMWk6kRE1HeZxI3HH56+oNf\nXLvDDz8CQQFZ2ilJ74oTpDS+cQKBgQDlP13uYNTkJ1O3EEzbcermS0dXkc6oyIgy\nSl4d0sd+GHvvtwDl0njGOgeF1OkQRc6TFCTXyYvoyXLQMVckxOkj4O1Npiobtqc7\ndiZMriALFS2ToQDuWk7YAPiPiT/3CKBA/kChMJOuSOZ/597TtFM+S0JCaRGBilmy\nePMjYYr12wKBgGNDd7cV3b8uvnwgTBD170AwgGe/3JbUyHPgsMzQZXAU9NdTvTYR\nzi8VoqiBhwWc7FlzR0EmgTt93Eaav9jVq7oqhxXvbncca6VFl2hz84rEa7CiDJSo\n5YFHuUVd0vNRHDM2XzEMyqmlC9WmK3a9/GvGLsqdGaUVWov+3FNemDWxAoGBANul\nQxJKpK+VHpiffYQkObQ9HDXC9gaxXA0TQ+m/MnSWcOjUpn+MkTscDmkj/cohmDND\ncalu6iY4HVFsdNo98EL4F2X2dxHmh4RpR3jgvMLhn7F66bF1xWUgSQb9sdO26BRd\nhv7p1BWAs5iJSO3+MGPXJ70JfkRnkll1mT+lDcdRAoGATszY8JiNzL3uzFVyt5g1\nRM6bDYi6P5aFASAg6MdTClxPdnBio6gT57H/zgWD/jQt2eWeFPvTpXTEQlk4VF5v\nL8AA1pDXm/6k2ytu5qKuuGafOnqr4HKHWKpEdk3hwCE2OKzbI3AM9bTHrEFE40tQ\nxjDWQMHUYZDAv1Z8hRfLaAc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "childsafeai@savvy-pad-286113.iam.gserviceaccount.com",
+  "client_id": "102476515303782071988",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/childsafeai%40savvy-pad-286113.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
