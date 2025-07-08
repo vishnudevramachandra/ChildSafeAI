@@ -23,7 +23,7 @@ def detect_nsfw_uri(image_uri, thres):
 		print('Error occured with REST API.')
 		print('Status code: {}'.format(r.status_code))
 		print('Error message: ' + r.text)
-		return (0)
+		return (1)
 
 
 if __name__ == '__main__':
