@@ -39,9 +39,26 @@ def response(flow: http.HTTPFlow) -> None:
 
 	# Überprüfen, ob der Inhalt IMAGEs enthält
     if content_type.startswith("image/"):
+        url = flow.request.pretty_url
         content_size = len(flow.response.content)
-        if content_size > 200:
+        is_logo = any(kw in url for kw in ["logo", "icon", "favicon", "sprite"])
+        is_small = content_size < 5 * 1024
+
+        try:
+            img = Image.open(BytesIO(flow.response.content))
+            width, height = img.size
+            is_tiny = max(width, height) < 100
+        except Exception:
+            width = height = 0
+            is_tiny = False
+        if is_logo or is_small or is_tiny:
+            print(f"[Logo/Icon?] {url} ({width}x{height}, {content_size/1024} KB)")
+        else:
+            print(f"[Content-Bild] {url} ({width}x{height}, {content_size/1024} KB)")
             check_image(flow)
+        # if content_size > 100:
+        #   check_image(flow)
+            
 
 
 def check_image(flow):
