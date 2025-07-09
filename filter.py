@@ -48,7 +48,7 @@ def check_image(flow):
     url = flow.request.pretty_url
 
     if detect_nsfw_uri(url, 50):
-        print(f"[BLOCKIERT] Bild auf {url}")
+        print(f"[BLOCKIERT] Image URL: {url}")
 
         # Hier ersetzen wir das Bild durch ein leeres 1x1 PNG
         BLANK_PNG = (
@@ -62,7 +62,7 @@ def check_image(flow):
         flow.response.headers["Content-Type"] = "image/png"
 
     else:
-        print(f"[ERLAUBT] -> Bild")
+        print(f"[ALLOW] -> Image")
 
 
 def detect_nsfw_uri(image_uri, thres):
@@ -98,7 +98,7 @@ def check_text(flow):
             # Den Body der Antwort mit dem bearbeiteten Text überschreiben
             flow.response.text = blurred_content
             html = flow.response.get_text()
-            print("[mitmproxy] Original HTML length:", len(html))
+            print("[HTML blur]")
 
             # Only inject JavaScript – no server-side HTML modification
             if "</body>" in html:
@@ -109,7 +109,7 @@ def check_text(flow):
                 html += JS_SNIPPET
 
             flow.response.set_text(html)
-            print("[mitmproxy] Injected JavaScript only, no HTML blur.")
+            print("[Injected JavaScript]")
         except Exception as e:
             print(f"[mitmproxy ERROR] Failed to modify response: {e}")
 
